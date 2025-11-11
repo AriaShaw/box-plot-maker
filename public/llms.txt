@@ -1,0 +1,48 @@
+# Box Plot Maker
+
+> Free online box plot generator and statistical visualization tool. Create professional box and whisker plots instantly with automatic outlier detection, CSV upload, and PNG export. No signup required.
+
+## Overview
+
+Box Plot Maker is a browser-based statistical tool that helps students, researchers, and data analysts create box and whisker plots in seconds. All data processing happens locally in the browser for complete privacy.
+
+## Core Features
+
+- **Interactive Box Plot Generator**: Real-time visualization as you enter data
+- **Automatic Outlier Detection**: Uses the standard 1.5×IQR rule to identify unusual values
+- **Multiple Input Methods**: Manual entry, copy-paste from Excel/Google Sheets, or CSV file upload
+- **Five-Number Summary**: Automatically calculates min, Q1, median, Q3, max, and IQR
+- **Export Options**: Download as PNG image or CSV file with full statistics
+- **Privacy-First**: All calculations performed locally, no data sent to servers
+
+## Key Pages
+
+### Tool & Documentation
+- Home: https://boxplotmaker.online - Main tool interface with data input and visualization
+- How to Use: https://boxplotmaker.online#how-to-use - Step-by-step tutorial for creating box plots
+- What is a Box Plot: https://boxplotmaker.online#what-is-box-plot - Educational guide explaining box plot components
+- When to Use: https://boxplotmaker.online#when-to-use - Use cases for comparing groups, identifying outliers, checking data symmetry
+- How to Read: https://boxplotmaker.online#how-to-read - Guide to interpreting box plots correctly
+
+### Educational Content
+- FAQ: https://boxplotmaker.online#faq - Common questions about box plots, CSV upload, outlier detection, data requirements
+- Real-World Examples: https://boxplotmaker.online#examples - Applications in education, healthcare, business, and environmental science
+
+### Legal & Privacy
+- Privacy Policy: https://boxplotmaker.online/privacy - Data handling practices (no tracking, no cookies, local processing)
+- Terms of Service: https://boxplotmaker.online/terms - Usage terms and user responsibilities
+
+## Technical Implementation
+
+Built with Next.js 15, TypeScript, and Tailwind CSS. Uses Chart.js for visualization. Fully responsive design works on desktop, tablet, and mobile devices. Deployed on Vercel.
+
+## Target Audience
+
+- Students and teachers working on statistics assignments
+- Researchers analyzing experimental data
+- Data analysts comparing group performance
+- Anyone needing quick statistical visualizations
+
+## SEO Keywords
+
+box plot maker, box and whisker plot generator, free box plot generator, online box plot maker, box plot calculator, five-number summary calculator, outlier detection tool, statistical visualization tool
