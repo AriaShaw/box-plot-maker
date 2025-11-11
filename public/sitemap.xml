@@ -7,15 +7,31 @@
   <!-- Homepage -->
   <url>
     <loc>https://boxplotmaker.online/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://boxplotmaker.online/privacy</loc>
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://boxplotmaker.online/terms</loc>
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
   <!-- How to Use Section -->
   <url>
     <loc>https://boxplotmaker.online/#how-to-use</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -23,7 +39,7 @@
   <!-- What is a Box Plot Section -->
   <url>
     <loc>https://boxplotmaker.online/#what-is-box-plot</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -31,7 +47,7 @@
   <!-- FAQ Section -->
   <url>
     <loc>https://boxplotmaker.online/#faq</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2025-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
