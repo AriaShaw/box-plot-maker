@@ -1,26 +1,169 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================
+   Tailwind CSS 4 主题配置
+   设计系统 V2.0 - "Less is More Legible"
+   ============================================ */
+
+@theme {
+  /* ========== 字体系统 ========== */
+  --font-family-serif: var(--font-lora), 'Georgia', 'Cambria', 'Times New Roman', serif;
+  --font-family-sans: var(--font-inter), system-ui, -apple-system, 'BlinkMacSystemFont', 'Segoe UI', sans-serif;
+
+  /* ========== 字号系统 (Mobile-First, 基准 16px) ========== */
+  --font-size-xs: 0.875rem;     /* 14px - 仅用于辅助信息 */
+  --font-size-sm: 0.9375rem;    /* 15px - 次要信息 */
+  --font-size-base: 1rem;       /* 16px - 正文 (关键改进！) */
+  --font-size-lg: 1.125rem;     /* 18px - 大正文 */
+  --font-size-xl: 1.25rem;      /* 20px - H3 */
+  --font-size-2xl: 1.5rem;      /* 24px - H2 */
+  --font-size-3xl: 1.875rem;    /* 30px - H1 移动端 */
+  --font-size-4xl: 2.25rem;     /* 36px - H1 桌面端 */
+  --font-size-5xl: 3rem;        /* 48px - Hero 标题 */
+
+  /* ========== 行高系统 (全局呼吸感) ========== */
+  --line-height-tight: 1.3;
+  --line-height-snug: 1.5;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.75;  /* 正文默认 */
+  --line-height-loose: 2;
+
+  /* ========== 优化的色彩系统 ========== */
+  /* 主色 - 更柔和的蓝色 */
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+
+  /* 中性色 - 更温暖的灰色 */
+  --color-neutral-50: #fafaf9;
+  --color-neutral-100: #f5f5f4;
+  --color-neutral-200: #e7e5e4;
+  --color-neutral-300: #d6d3d1;
+  --color-neutral-400: #a8a29e;
+  --color-neutral-500: #78716c;
+  --color-neutral-600: #57534e;
+  --color-neutral-700: #44403c;
+  --color-neutral-800: #292524;
+  --color-neutral-900: #1c1917;
+
+  /* 成功色 */
+  --color-success-500: #10b981;
+  --color-success-600: #059669;
+
+  /* 间距系统扩展 (8px 基准) */
+  --spacing-18: 4.5rem;   /* 72px */
+  --spacing-22: 5.5rem;   /* 88px */
+  --spacing-26: 6.5rem;   /* 104px */
+  --spacing-30: 7.5rem;   /* 120px */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* ============================================
+   全局基础样式
+   ============================================ */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-neutral-200;
+  }
+
+  body {
+    @apply bg-neutral-50 text-neutral-900;
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+  }
+
+  /* ========== 全局标题样式 ========== */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-serif);
+    @apply leading-tight font-bold text-neutral-900;
+  }
+
+  h1 {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-tight);
+  }
+
+  h2 {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-snug);
+  }
+
+  h3 {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-normal);
+  }
+
+  /* ========== 全局正文样式 - 关键改进 ========== */
+  p {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+    @apply text-neutral-700;
+  }
+
+  /* ========== 全局链接样式 ========== */
+  a {
+    @apply text-primary-600 hover:text-primary-700 transition-colors duration-200;
+  }
+
+  /* ========== 强调文本 ========== */
+  strong {
+    @apply font-semibold text-neutral-900;
+  }
+
+  /* ========== 列表样式 ========== */
+  ul, ol {
+    @apply leading-relaxed;
+  }
+
+  /* ========== 响应式字号 (桌面端) ========== */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: var(--font-size-4xl);
+    }
+
+    h2 {
+      font-size: var(--font-size-3xl);
+    }
+
+    h3 {
+      font-size: var(--font-size-2xl);
+    }
+
+    p {
+      font-size: var(--font-size-lg);
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ============================================
+   自定义工具类
+   ============================================ */
+
+@layer utilities {
+  /* 排版工具类 */
+  .text-serif {
+    font-family: var(--font-family-serif);
+  }
+
+  .text-sans {
+    font-family: var(--font-family-sans);
+  }
+
+  /* 呼吸感工具类 */
+  .breathing-space {
+    @apply space-y-6 md:space-y-8;
+  }
+
+  /* 卡片阴影 */
+  .card-shadow {
+    @apply shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
 }

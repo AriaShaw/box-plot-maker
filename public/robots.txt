@@ -1,0 +1,11 @@
+# robots.txt for Box Plot Maker
+# Allow all search engines to index all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://boxplotmaker.online/sitemap.xml
+
+# Crawl-delay for courtesy (optional)
+Crawl-delay: 1
