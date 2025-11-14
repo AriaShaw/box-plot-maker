@@ -211,7 +211,7 @@ Different software may use slightly different quartile calculation methods (ther
 
 ## How Our Free Tool Helps
 
-At [Box Plot Maker](https://boxplotmaker.online), we've automated the entire outlier detection process to save you time and prevent calculation errors. Here's how our tool supports your analysis:
+At [Box Plot Maker](/), we've automated the entire outlier detection process to save you time and prevent calculation errors. Here's how our tool supports your analysis:
 
 **Automatic 1.5×IQR Calculation**: Simply paste your data, and our tool instantly calculates Q1, Q3, IQR, and outlier boundaries using the standard Tukey method. No manual calculations needed.
 
@@ -225,7 +225,7 @@ At [Box Plot Maker](https://boxplotmaker.online), we've automated the entire out
 
 **No Installation Required**: Access our tool directly in your browser - no software installation, no registration, completely free.
 
-Try our [free box plot maker](https://boxplotmaker.online) to visualize your data and identify outliers in seconds. Perfect for students completing statistics assignments, researchers analyzing experimental data, or professionals monitoring quality metrics.
+Try our [free box plot maker](/) to visualize your data and identify outliers in seconds. Perfect for students completing statistics assignments, researchers analyzing experimental data, or professionals monitoring quality metrics.
 
 ## Conclusion
 
@@ -239,9 +239,9 @@ Understanding box plot outliers is essential for accurate data analysis. The 1.5
 
 **Visual tools like box plots** make outlier detection intuitive and immediate, revealing patterns that spreadsheets of numbers hide.
 
-Ready to identify outliers in your own data? **[Create your free box plot now](https://boxplotmaker.online)** and see which data points fall outside normal variation. Our tool automatically applies the 1.5×IQR rule and highlights outliers for you - no calculations required.
+Ready to identify outliers in your own data? **[Create your free box plot now](/)** and see which data points fall outside normal variation. Our tool automatically applies the 1.5×IQR rule and highlights outliers for you - no calculations required.
 
-For more guidance on interpreting your results, check out our comprehensive guide on [How to Read a Box Plot](https://boxplotmaker.online/blog/how-to-read-box-plot) to master every element of this powerful visualization.
+For more guidance on interpreting your results, check out our comprehensive guide on [How to Read a Box Plot](/blog/how-to-read-box-plot) or learn [How to Make Box Plots in Excel](/blog/how-to-make-box-plot-excel) to master every element of this powerful visualization.
 
 ---
 
