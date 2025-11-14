@@ -12,6 +12,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Contact -->
+  <url>
+    <loc>https://boxplotmaker.online/contact</loc>
+    <lastmod>2025-01-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Privacy Policy -->
   <url>
     <loc>https://boxplotmaker.online/privacy</loc>

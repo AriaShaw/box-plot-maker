@@ -28,7 +28,14 @@ Box Plot Maker is a browser-based statistical tool that helps students, research
 - FAQ: https://boxplotmaker.online#faq - Common questions about box plots, CSV upload, outlier detection, data requirements
 - Real-World Examples: https://boxplotmaker.online#examples - Applications in education, healthcare, business, and environmental science
 
-### Legal & Privacy
+### Blog & Tutorials
+- Blog: https://boxplotmaker.online/blog - Comprehensive guides and tutorials
+- How to Read Box Plots: https://boxplotmaker.online/blog/how-to-read-box-plot - Complete interpretation guide
+- Excel Tutorial: https://boxplotmaker.online/blog/how-to-make-box-plot-excel - Step-by-step Excel box plot creation
+- Outlier Detection: https://boxplotmaker.online/blog/box-plot-outliers-explained - Understanding the 1.5×IQR rule
+
+### Legal & Contact
+- Contact Us: https://boxplotmaker.online/contact - Get in touch for questions, bug reports, or feature requests
 - Privacy Policy: https://boxplotmaker.online/privacy - Data handling practices (no tracking, no cookies, local processing)
 - Terms of Service: https://boxplotmaker.online/terms - Usage terms and user responsibilities
 
