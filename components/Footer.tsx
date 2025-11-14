@@ -35,6 +35,14 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <Link
+                  href="/blog"
+                  className="font-sans text-neutral-400 hover:text-white transition-colors text-base"
+                >
+                  Blog & Tutorials
+                </Link>
+              </li>
+              <li>
                 <a
                   href="/#faq"
                   className="font-sans text-neutral-400 hover:text-white transition-colors text-base"

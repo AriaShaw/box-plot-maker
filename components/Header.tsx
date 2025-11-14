@@ -40,6 +40,12 @@ export default function Header() {
             >
               What is a Box Plot
             </a>
+            <Link
+              href="/blog"
+              className="font-sans text-base text-neutral-700 hover:text-primary-600 font-medium transition-colors"
+            >
+              Blog
+            </Link>
             <a
               href="/#faq"
               className="font-sans text-base text-neutral-700 hover:text-primary-600 font-medium transition-colors"
@@ -80,6 +86,13 @@ export default function Header() {
               >
                 What is a Box Plot
               </a>
+              <Link
+                href="/blog"
+                onClick={() => setMobileMenuOpen(false)}
+                className="font-sans text-lg text-neutral-700 hover:text-primary-600 font-medium py-2 transition-colors"
+              >
+                Blog
+              </Link>
               <a
                 href="/#faq"
                 onClick={() => setMobileMenuOpen(false)}
