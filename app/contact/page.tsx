@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Mail, MessageSquare, FileQuestion } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Box Plot Maker',
@@ -27,62 +27,24 @@ export default function ContactPage() {
           </p>
         </header>
 
-        {/* Contact Options */}
-        <div className="grid gap-8 md:grid-cols-3 mb-16">
-          {/* General Inquiries */}
-          <div className="bg-white p-8 rounded-xl shadow-md border-2 border-gray-100 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-6">
-              <Mail className="text-blue-600" size={32} />
+        {/* Contact Card */}
+        <div className="max-w-2xl mx-auto mb-16">
+          <div className="bg-white p-12 rounded-xl shadow-md border-2 border-gray-100 text-center">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-blue-100 rounded-full mb-6">
+              <Mail className="text-blue-600" size={40} />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 font-serif">
-              General Inquiries
+            <h2 className="text-3xl font-bold text-gray-900 mb-4 font-serif">
+              Get in Touch
             </h2>
-            <p className="text-gray-600 mb-6">
-              Questions about our tool or how to use it?
+            <p className="text-gray-600 mb-8 text-lg">
+              Questions, bug reports, or feature suggestions?<br />
+              We'd love to hear from you.
             </p>
             <a
               href="mailto:contact@boxplotmaker.online"
-              className="inline-block text-blue-600 hover:text-blue-700 font-semibold"
+              className="inline-block text-2xl text-blue-600 hover:text-blue-700 font-semibold transition-colors"
             >
               contact@boxplotmaker.online
-            </a>
-          </div>
-
-          {/* Bug Reports */}
-          <div className="bg-white p-8 rounded-xl shadow-md border-2 border-gray-100 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-red-100 rounded-full mb-6">
-              <MessageSquare className="text-red-600" size={32} />
-            </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 font-serif">
-              Bug Reports
-            </h2>
-            <p className="text-gray-600 mb-6">
-              Found a bug or experiencing issues?
-            </p>
-            <a
-              href="mailto:bugs@boxplotmaker.online"
-              className="inline-block text-blue-600 hover:text-blue-700 font-semibold"
-            >
-              bugs@boxplotmaker.online
-            </a>
-          </div>
-
-          {/* Feature Requests */}
-          <div className="bg-white p-8 rounded-xl shadow-md border-2 border-gray-100 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-6">
-              <FileQuestion className="text-green-600" size={32} />
-            </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 font-serif">
-              Feature Requests
-            </h2>
-            <p className="text-gray-600 mb-6">
-              Have an idea to make our tool better?
-            </p>
-            <a
-              href="mailto:features@boxplotmaker.online"
-              className="inline-block text-blue-600 hover:text-blue-700 font-semibold"
-            >
-              features@boxplotmaker.online
             </a>
           </div>
         </div>
